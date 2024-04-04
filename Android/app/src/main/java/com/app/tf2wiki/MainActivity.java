@@ -18,10 +18,15 @@ public class MainActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Интент для перехода на главный экран
-                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-                startActivity(intent);
+                // Вызываем функцию для перехода на HomeActivity
+                goToHomeActivity();
             }
         });
+    }
+
+    // Функция для перехода на HomeActivity
+    private void goToHomeActivity() {
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 }

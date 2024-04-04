@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">TF2 Wiki</string>
-    <string name="button_text">TF2 Wiki</string>
+    <string name="text">TF2 Wiki</string>
+    <string name="classes">Classes</string>
+    <string name="trade">Trade</string>
+    <string name="game_modes">Game modes</string>
+    <string name="accessories"> Accessories</string>
+    <string name="weapons"> Weapons</string>
 </resources>

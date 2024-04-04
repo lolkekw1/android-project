@@ -14,5 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TF2 Wiki"
-
 include(":app")

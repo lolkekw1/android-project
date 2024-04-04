@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E0E00"
+    tools:context=".HomeActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <ImageButton
+        android:id="@+id/buttonSoldier"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="164dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Soldier_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/buttonScout"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="164dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Scout_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonPyro"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="164dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Pyro_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonDemoman"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="360dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Demoman_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonHeavy"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="360dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Heavy_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonEngineer"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="360dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Engineer_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonMedic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="560dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Medic_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonSniper"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="560dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Sniper_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonSpy"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="560dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Spy_emblem_RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/tf2build"
+        android:padding="8dp"
+        android:text="Classes"
+        android:textColor="#FFC9A5"
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textScout"
+        android:layout_width="102dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Scout"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSoldier"
+        app:layout_constraintStart_toStartOf="@+id/buttonScout"
+        app:layout_constraintTop_toTopOf="@+id/buttonScout" />
+
+    <TextView
+        android:id="@+id/textSoldier"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Soldier"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSoldier"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/buttonScout"
+        app:layout_constraintTop_toTopOf="@+id/buttonSoldier" />
+
+    <TextView
+        android:id="@+id/textPyro"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Pyro"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/buttonPyro"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="@+id/buttonPyro"
+        app:layout_constraintTop_toTopOf="@+id/buttonPyro" />
+
+    <TextView
+        android:id="@+id/textDemoman"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Demoman"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeMinTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/buttonHeavy"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonDemoman"
+        app:layout_constraintTop_toTopOf="@+id/buttonDemoman" />
+
+    <TextView
+        android:id="@+id/textHeavy"
+        android:layout_width="104dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Heavy"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/textEngineer"
+        android:layout_width="144dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Engineer"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/textMedic"
+        android:layout_width="94dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Medic"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <TextView
+        android:id="@+id/textSniper"
+        android:layout_width="115dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Sniper"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <TextView
+        android:id="@+id/textSpy"
+        android:layout_width="75dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/tf2build"
+        android:text="Spy"
+        android:textColor="#FFC9A5"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
